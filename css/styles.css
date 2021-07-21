@@ -1,0 +1,40 @@
+/*for elements we use the name directly*/
+h1{
+ font-family: 'Inconsolata';
+ font-weight: 700;
+ font-size: 3.5rem;
+ line-height: 1.5;
+}
+body{
+   font-family: 'Inconsolata';
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+/*for ids we use #nameofID*/
+#title{
+    background-color: #ff4c68;
+    color:white;
+}
+
+/*for classes we use .classname*/
+.cotainer-fluid{
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+  font-weight: 900; font-size:xx-large;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}

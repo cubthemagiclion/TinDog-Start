@@ -5,6 +5,20 @@ h1{
  font-size: 3.5rem;
  line-height: 1.5;
 }
+h2{
+ font-family: 'Inconsolata';
+ font-weight: 700;
+ font-size: 2.5rem;
+ line-height: 1.2;
+}
+h3{
+  font-weight: 600;
+  color: #ff4c68;
+}
+h3:hover{
+  color:#F5B243;
+  text-shadow: 1px 1px 0px #ff0000;
+}
 body{
    font-family: 'Inconsolata';
 }
@@ -17,9 +31,26 @@ body{
     color:white;
 }
 
+
+
+#features{
+  padding: 7% 10%;
+}
+#testimonials{
+  padding: 7% 7% 0% 7%;
+    background-color: #ff4c68;
+    text-align: center;
+    color:white;
+}
+#press{
+      background-color: #ff4c68;
+      padding: 7% 10%;
+
+      text-align: center;
+}
 /*for classes we use .classname*/
 .cotainer-fluid{
-  padding: 3% 15%;
+  padding: 3% 12%;
 }
 
 .navbar-brand{
@@ -37,4 +68,38 @@ font-family: 'Ubuntu', sans-serif;
 
 .download-button{
   margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+/* Little Icons */
+.icondivs{
+  text-align: center;
+    color: #ff4c68;
+}
+
+.grayp{
+  color:gray;
+}
+.myowntitle:hover{
+  text-shadow: 5px 5px 0px #ff0000;
+}
+.testimonialimage{
+  width: 17%;
+  border-radius: 100%;
+  margin-top: 20px;
+}
+.testimonialdes{
+  font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pressimages{
+  margin-right: 12px;
 }

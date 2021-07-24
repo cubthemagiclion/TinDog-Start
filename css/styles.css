@@ -29,15 +29,18 @@ body{
 #title{
     background-color: #ff4c68;
     color:white;
+    position: relative;
+    z-index: -2;
+
 }
 
 
 
 #features{
   padding: 7% 10%;
+  background-color: white;
 }
 #testimonials{
-  padding: 7% 7% 0% 7%;
     background-color: #ff4c68;
     text-align: center;
     color:white;
@@ -47,6 +50,11 @@ body{
       padding: 7% 10%;
 
       text-align: center;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+  color:#ff4c68;
 }
 /*for classes we use .classname*/
 .cotainer-fluid{
@@ -75,7 +83,9 @@ font-family: 'Ubuntu', sans-serif;
   width: 60%;
   transform: rotate(20deg);
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 2px;
+  position: absolute;
+  z-index: -1;
 }
 
 /* Little Icons */
@@ -102,4 +112,10 @@ font-family: 'Ubuntu', sans-serif;
 }
 .pressimages{
   margin-right: 12px;
+}
+.carousel-item{
+  padding: 7% 14% 2% 14%;
+}
+.pricing-column{
+  padding: 3% 2%;
 }

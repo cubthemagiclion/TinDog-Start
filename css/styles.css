@@ -107,9 +107,6 @@ body {
   color: gray;
 }
 
-.myowntitle:hover {
-  text-shadow: 5px 5px 0px #ff0000;
-}
 
 .testimonialimage {
   width: 17%;
@@ -176,4 +173,14 @@ body {
 .icongroup:hover {
   position: relative;
   top: 5px;
+}
+.myowntitle{
+  position: relative;
+  top:0px;
+}
+.myowntitle:hover {
+  text-shadow: 5px 5px 0px #ff0000;
+  position: relative;
+  top:-2px;
+  left:-2px;
 }

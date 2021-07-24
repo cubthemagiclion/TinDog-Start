@@ -1,121 +1,179 @@
 /*for elements we use the name directly*/
-h1{
- font-family: 'Inconsolata';
- font-weight: 700;
- font-size: 3.5rem;
- line-height: 1.5;
+h1 {
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-h2{
- font-family: 'Inconsolata';
- font-weight: 700;
- font-size: 2.5rem;
- line-height: 1.2;
+
+h2 {
+  font-family: 'Inconsolata';
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
 }
-h3{
+
+h3 {
   font-weight: 600;
   color: #ff4c68;
 }
-h3:hover{
-  color:#F5B243;
+
+h3:hover {
+  color: #F5B243;
   text-shadow: 1px 1px 0px #ff0000;
 }
-body{
-   font-family: 'Inconsolata';
+
+body {
+  font-family: 'Inconsolata';
 }
-.navbar{
+
+.navbar {
   padding: 0 0 4.5rem;
 }
+
 /*for ids we use #nameofID*/
-#title{
-    background-color: #ff4c68;
-    color:white;
-    position: relative;
-    z-index: -2;
-
+#title {
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
 }
 
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
 
-
-#features{
+#press {
+  background-color: #ff4c68;
   padding: 7% 10%;
-  background-color: white;
+  text-align: center;
 }
-#testimonials{
-    background-color: #ff4c68;
-    text-align: center;
-    color:white;
-}
-#press{
-      background-color: #ff4c68;
-      padding: 7% 10%;
 
-      text-align: center;
-}
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
-  color:#ff4c68;
-}
-/*for classes we use .classname*/
-.cotainer-fluid{
-  padding: 3% 12%;
+  color: #ff4c68;
 }
 
-.navbar-brand{
-font-family: 'Ubuntu', sans-serif;
-  font-weight: 900; font-size:xx-large;
+/*for classes we use .classname*/
+.cotainer-fluid {
+  padding: 3% 12% 7%;
 }
-.nav-item{
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.nav-item {
   padding: 0 18px;
 }
-.nav-link{
+
+.nav-link {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   font-size: 1.2rem;
 }
 
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
-.title-image{
+.title-image {
   width: 60%;
   transform: rotate(20deg);
   margin-left: 100px;
   margin-top: 2px;
   position: absolute;
-  z-index: -1;
+}
+
+#features {
+  padding: 7% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 3;
 }
 
 /* Little Icons */
-.icondivs{
+.icondivs {
   text-align: center;
-    color: #ff4c68;
+  color: #ff4c68;
 }
 
-.grayp{
-  color:gray;
+.grayp {
+  color: gray;
 }
-.myowntitle:hover{
+
+.myowntitle:hover {
   text-shadow: 5px 5px 0px #ff0000;
 }
-.testimonialimage{
+
+.testimonialimage {
   width: 17%;
   border-radius: 100%;
   margin-top: 20px;
 }
-.testimonialdes{
+
+.testimonialdes {
   font-size: 18px;
-    margin-top: 20px;
-    margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
-.pressimages{
+
+.pressimages {
   margin-right: 12px;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 14% 2% 14%;
 }
-.pricing-column{
+
+.pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .cotainer-fluid {
+    padding-bottom: 7%;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: 0px;
+    margin-top: 5%;
+  }
+}
+
+.bottomcontainer {
+  background-color: #ff4c68;
+  padding: 5% 10% 2%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #white;
+  text-align: center;
+  padding-bottom: 0px;
+  padding: 2% 0%;
+  line-height: 1;
+  color: gray;
+}
+
+.icongroup {
+  margin: 1%;
+  position: relative;
+  top: 0px;
+}
+
+.icongroup:hover {
+  position: relative;
+  top: 5px;
 }
